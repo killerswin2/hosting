@@ -1,0 +1,5 @@
+/Users/ellisnielsen/git/hosting/obj/Debug/net7.0/hosting.csproj.AssemblyReference.cache
+/Users/ellisnielsen/git/hosting/obj/Debug/net7.0/hosting.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ellisnielsen/git/hosting/obj/Debug/net7.0/hosting.AssemblyInfoInputs.cache
+/Users/ellisnielsen/git/hosting/obj/Debug/net7.0/hosting.AssemblyInfo.cs
+/Users/ellisnielsen/git/hosting/obj/Debug/net7.0/hosting.csproj.CoreCompileInputs.cache

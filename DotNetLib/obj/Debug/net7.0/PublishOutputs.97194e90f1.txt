@@ -1,0 +1,4 @@
+/Users/ellisnielsen/git/hosting/DotNetLib/bin/Debug/net7.0/publish/DotNetLib.dll
+/Users/ellisnielsen/git/hosting/DotNetLib/bin/Debug/net7.0/publish/DotNetLib.deps.json
+/Users/ellisnielsen/git/hosting/DotNetLib/bin/Debug/net7.0/publish/DotNetLib.runtimeconfig.json
+/Users/ellisnielsen/git/hosting/DotNetLib/bin/Debug/net7.0/publish/DotNetLib.pdb

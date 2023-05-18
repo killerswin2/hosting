@@ -1,0 +1,14 @@
+/Users/ellisnielsen/git/hosting/DotNetLib/bin/Debug/net7.0/DotNetLib.deps.json
+/Users/ellisnielsen/git/hosting/DotNetLib/bin/Debug/net7.0/DotNetLib.dll
+/Users/ellisnielsen/git/hosting/DotNetLib/bin/Debug/net7.0/DotNetLib.pdb
+/Users/ellisnielsen/git/hosting/DotNetLib/obj/Debug/net7.0/DotNetLib.csproj.AssemblyReference.cache
+/Users/ellisnielsen/git/hosting/DotNetLib/obj/Debug/net7.0/DotNetLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ellisnielsen/git/hosting/DotNetLib/obj/Debug/net7.0/DotNetLib.AssemblyInfoInputs.cache
+/Users/ellisnielsen/git/hosting/DotNetLib/obj/Debug/net7.0/DotNetLib.AssemblyInfo.cs
+/Users/ellisnielsen/git/hosting/DotNetLib/obj/Debug/net7.0/DotNetLib.csproj.CoreCompileInputs.cache
+/Users/ellisnielsen/git/hosting/DotNetLib/obj/Debug/net7.0/DotNetLib.dll
+/Users/ellisnielsen/git/hosting/DotNetLib/obj/Debug/net7.0/refint/DotNetLib.dll
+/Users/ellisnielsen/git/hosting/DotNetLib/obj/Debug/net7.0/DotNetLib.pdb
+/Users/ellisnielsen/git/hosting/DotNetLib/obj/Debug/net7.0/ref/DotNetLib.dll
+/Users/ellisnielsen/git/hosting/DotNetLib/bin/Debug/net7.0/DotNetLib.runtimeconfig.json
+/Users/ellisnielsen/git/hosting/DotNetLib/obj/Debug/net7.0/DotNetLib.genruntimeconfig.cache
