@@ -51,5 +51,11 @@ namespace DotNetLib
             Console.WriteLine($"-- message: {message}");
             Console.WriteLine($"-- number: {libArgs.Number}");
         }
+
+        public delegate void doMathDelegate(int number);
+        public static void doMath(int number)
+        {
+            Console.WriteLine($"Number: {number*2}");
+        }
     }
 }
