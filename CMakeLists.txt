@@ -27,32 +27,3 @@ target_include_directories(hosting PUBLIC ${DOTNET_SDK_ROOT_PATH} PUBLIC ${DOTNE
 target_link_libraries(hosting PUBLIC nethost PUBLIC hostfxr)
 
 set_property(TARGET hosting PROPERTY CXX_STANDARD 17)
-
-
-set(MY_DEPENDENCY_PATHS /path/one /path/two)
-set(CMAKE_INSTALL_PREFIX ${CMAKE_BINARY_DIR}/../)
-
-# Transfer the value of ${MY_DEPENDENCY_PATHS} into the install script
-install(CODE "set(MY_DEPENDENCY_PATHS \"${MY_DEPENDENCY_PATHS}\")")
-
-install(CODE [[
-  file(GET_RUNTIME_DEPENDENCIES
-    LIBRARIES $<TARGET_FILE:hosting>
-    EXECUTABLES $<TARGET_FILE:hosting>
-    RESOLVED_DEPENDENCIES_VAR _r_deps
-    UNRESOLVED_DEPENDENCIES_VAR _u_deps
-    DIRECTORIES ${MY_DEPENDENCY_PATHS}
-  )
-  foreach(_file ${_r_deps})
-    file(INSTALL
-      DESTINATION "${CMAKE_INSTALL_PREFIX}"
-      TYPE SHARED_LIBRARY
-      FOLLOW_SYMLINK_CHAIN
-      FILES "${_file}"
-    )
-  endforeach()
-  list(LENGTH _u_deps _u_length)
-  if("${_u_length}" GREATER 0)
-    message(WARNING "Unresolved dependencies detected!")
-  endif()
-]])

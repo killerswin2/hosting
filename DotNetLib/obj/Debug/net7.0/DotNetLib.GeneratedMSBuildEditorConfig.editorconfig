@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DotNetLib
-build_property.ProjectDir = /Users/ellisnielsen/git/hosting/DotNetLib/
+build_property.ProjectDir = e:\Git\hosting\DotNetLib\
